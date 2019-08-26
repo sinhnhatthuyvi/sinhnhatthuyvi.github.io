@@ -64,11 +64,7 @@ if (autoRotate) {
 
 // add background music
 if (bgMusicURL) {
-  document.getElementById('music-container').innerHTML += `<audio  autoplay>
-  <source src="music.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-`;
+  document.getElementById('music-container').innerHTML += `<iframe hidden ="true" src="https://www.youtube.com/watch?v=42Uvxt7i5dw" frameborder="0" allowfullscreen></iframe>`;
 }
 
 // setup events
